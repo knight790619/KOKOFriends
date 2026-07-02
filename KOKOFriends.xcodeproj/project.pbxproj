@@ -225,7 +225,6 @@
 			name = KOKOFriends;
 			packageProductDependencies = (
 				54A5B1C92FF3D5CD00A13B8C /* Alamofire */,
-				54A5B1CB2FF3D5CD00A13B8C /* AlamofireDynamic */,
 			);
 			productName = KOKOFriends;
 			productReference = 54A5B1602FF21E5B00A13B8C /* KOKOFriends.app */;
@@ -570,11 +569,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 54A5B1C82FF3D5CD00A13B8C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		54A5B1CB2FF3D5CD00A13B8C /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 54A5B1C82FF3D5CD00A13B8C /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
