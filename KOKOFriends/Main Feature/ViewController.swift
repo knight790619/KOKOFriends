@@ -15,17 +15,17 @@ class ViewController: UIViewController {
     
     @IBAction func didClickNoFriendButton(_ sender: UIButton) {
         PageState.shared.state = .noFriend
-        switchToMainTabbar(animated: true)
+        switchToMainTabbar(animated: false)
     }
     
     @IBAction func didClickNormalFriendButton(_ sender: Any) {
         PageState.shared.state = .normalFriend
-        switchToMainTabbar(animated: true)
+        switchToMainTabbar(animated: false)
     }
     
     @IBAction func didClickFriendWithInviteButton(_ sender: Any) {
         PageState.shared.state = .friendWithInvite
-        switchToMainTabbar(animated: true)
+        switchToMainTabbar(animated: false)
     }
     
     func switchToMainTabbar(animated: Bool) {

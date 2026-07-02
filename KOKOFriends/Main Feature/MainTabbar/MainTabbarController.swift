@@ -24,6 +24,7 @@ class MainTabbarController: UITabBarController {
         
         configureLayout()
         
+        selectedIndex = 1 // 進入時直接選擇到朋友 tab
     }
     
     override func viewDidLayoutSubviews() {
