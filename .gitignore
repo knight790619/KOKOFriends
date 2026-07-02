@@ -1,0 +1,23 @@
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Build folders
+DerivedData/
+build/
+.build/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Archive / export
+*.xcarchive
+*.ipa
+
+# Local secrets / env
+.env
+.env.local
+Secrets.plist
