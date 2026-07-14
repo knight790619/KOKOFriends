@@ -195,6 +195,7 @@ private extension FriendListViewController {
         friendBadgeCountView.layer.cornerRadius = friendBadgeCountView.frame.height / 2
         chatBadgeCountView.layer.cornerRadius = chatBadgeCountView.frame.height / 2
         tabUnderLine.layer.cornerRadius = 2
+        searchView.layer.cornerRadius = 10
         
         chatBadgeCountLabel.text = "99+" // 固定顯示 99+
         
